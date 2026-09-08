@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "linkbio",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-08",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "vars": {
+    "APPLY_URL": "https://gdm.yayforms.link/4VrGGZJ?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacU14gdJncptOnwIjG0I4ngIkDO2F01btOCMJGqossWJeHgKTgG_Cv9QxjUQQ_aem_TLZrtogRbCoG7eGPTXVaNg&utm_id=97760_v0_s00_e0_tv3",
+    "MENTORIA_URL": "",
+    "METODO_URL": "",
+    "PALESTRAS_URL": "https://gdm.yayforms.link/4VrGGZJ?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacU14gdJncptOnwIjG0I4ngIkDO2F01btOCMJGqossWJeHgKTgG_Cv9QxjUQQ_aem_TLZrtogRbCoG7eGPTXVaNg&utm_id=97760_v0_s00_e0_tv3"
+  }
+}
