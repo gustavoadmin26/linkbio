@@ -1,13 +1,7 @@
 (() => {
   const cfg = window.LINKBIO_CONFIG || {};
-  const media = window.LINKBIO_MEDIA || {};
   const toast = document.getElementById('toast');
   let timer;
-
-  document.querySelectorAll('[data-image]').forEach((img) => {
-    const key = img.dataset.image;
-    if (media[key]) img.src = media[key];
-  });
 
   const showToast = (message) => {
     clearTimeout(timer);
@@ -35,7 +29,9 @@
           ? 'O link da mentoria será publicado em breve.'
           : key === 'METODO_URL'
             ? 'O conteúdo do método será publicado em breve.'
-            : 'Este link está sendo configurado.'
+            : key === 'PALESTRAS_URL'
+              ? 'O link de palestras será publicado em breve.'
+              : 'Este link está sendo configurado.'
       );
     });
   });
