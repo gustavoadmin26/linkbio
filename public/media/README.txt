@@ -1,0 +1,1 @@
+original media files are stored as repository assets
